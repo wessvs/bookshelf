@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+
+h1, h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+
+header {
+    text-align: center;
+    width: 100vw;
+    height: 12vh;
+    margin: 2rem auto;
+    padding: auto;
+    border-bottom: 1px solid whitesmoke;
+}
+
+header h1 {
+    font-size: 2.7rem;
+}
+
+.blue {
+    color: #007bff;
+    margin: -20px 0;
+    
+}
+
+main {
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    font-size: 1em;
+    display: inline-block;
+    margin: 40px auto;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    background-color: #121212;
+    color: whitesmoke;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 12px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: .4s ease-in-out;
+}
+
+button:hover {
+    color: #43ABF6;
+    border-color: #43ABF6;
+}
+
+.white {
+    color: black;
+    background-color: white;
+    font-weight: 900;
+}
+
+.white:hover {
+    color: white;
+    background-color: #121212;
+}
+
+img {
+    margin: 40px auto;
+    display: block;
+    border-radius: 100%;
+    transition: 1s ease-in-out;
+    width: 100%;
+    min-width: 200px;
+}
+
+img:hover {
+        background-color: rgba(229, 149, 118, 0.557);
+
+}
+
+.container button {
+    margin-left: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 4vh;
+    text-align: center;
+    padding: auto 0;
+    border-top: 1px solid whitesmoke;
+}
